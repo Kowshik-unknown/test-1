@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local prototype ledger / environment
+functions/node_modules/
+firebase-debug.log
+firebase-debug.*.log
+backend/*.sqlite3
+backend/*.sqlite3-shm
+backend/*.sqlite3-wal
+backend/local_seed_credentials.json
+backend/firebase_seed_credentials.json
+.env
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
